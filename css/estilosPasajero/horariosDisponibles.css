@@ -9,41 +9,23 @@ body{
 	float: left;
 }
 
-.fecha{
+.dato{
 	width: 100%;
 	float: left;
 	max-height: 25px;
 }
-.fecha label{
+.dato label{
 	float: left;
 }
-.fecha p{
+.dato p{
 	margin-top: 0;
 	float: right;
 	margin-right: 5px;
 }
 
-.punto{
-	height: 2em;
-	float: left;
-}
-
 label{	
 	color: var(--labelAzul);
 }
-
-.datosHorario select{
-	width: 45%;
-	float: right;
-	margin-bottom: 2.5em;
-	border-radius: 5px;
-	height: 2em;
-	border: 1px solid rgba(0,0,0,.2);
-	font-family: var(--fuente);
-	box-sizing: border-box;
-	padding: 5px;
-}
-
 
 .horarios{
 	margin-top: 1em;

@@ -1,6 +1,8 @@
-
+*{
+	font-family: 'Questrial', 'Segoe UI',sans-serif;
+}
 :root{
-	--fuente: 'Questrial', 'Segoe UI Light', sans-serif;
+	/*--fuente: 'Questrial', sans-serif;*/
 	--azulMarino: #385f75;
 	--azulMarino2: #2d79a4;
 	--azul:  #2D79A4;
@@ -23,9 +25,6 @@
 	--obscuro: #2E2E2D;
 }
 
-body{
-	font-family: var(--fuente);
-}
 
 nav, footer{
 	width: 100%;
@@ -65,7 +64,7 @@ header h1{
 
 header p{
 	color: rgba(0,0,0,.5);
-	font-size: .96em;
+	font-size: 1.1em;
 	text-align: center;
 	line-height: 20px; 
 }
@@ -82,7 +81,7 @@ button, input[type=submit]{
 	cursor: pointer;
 	margin-bottom: 0;
 	margin-top: 1em;
-	font-size: .9em;
+	font-size: 1em;
 }
 
 

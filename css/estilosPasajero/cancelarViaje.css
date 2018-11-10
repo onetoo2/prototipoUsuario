@@ -10,15 +10,18 @@
 }
 
 .dato h3{
-	/*background: #7092DB;*/
 	padding: .3em;
-	/*color: #fff;*/
-	border-bottom: 2px solid rgba(0,0,0,.1);
-	border-radius: 5px;
-	font-weight: lighter;
+	box-sizing: border-box;
 	font-size: 1em;
 	text-align: center;
-	color: var(--azul2);
+	letter-spacing: .2px;
+	border: none;
+	border-radius: 5px;
+	/*border-bottom: 2px solid rgba(0,0,0,.1);*/
+	font-weight: lighter;
+	background: var(--azulClaro);
+	color: var(--blanco);
+	/*color: var(--gris);*/
 }
 .dato p{
 	color: var(--gris2);
@@ -29,9 +32,6 @@
 	color: var(--label);
 }
 
-.dato p, label{
-	font-size: .95em;
-}
 .btns{
 	width: 80%;
 	margin-left: 10%;

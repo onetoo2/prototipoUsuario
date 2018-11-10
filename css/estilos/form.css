@@ -16,6 +16,7 @@ form input{
 	margin-top: .5em;
 	margin-bottom: 1.5em;
 	background: none;
+	font-size: .9em;
 	border-bottom: 2px solid rgba(0,0,0,.1);
 }
 
@@ -23,7 +24,6 @@ form a{
 	width: 100%;
 	text-align: center;
 	display: block; 
-	font-size: .86em;
 	color: var(--link);
 	text-decoration: none;
 	margin-top: 1em;
@@ -45,6 +45,6 @@ form textarea{
 	padding: 5px;
 	font-family: 'Questrial', sans-serif; 
 	color: var(--gris2);
-	font-size: .8em;
+	font-size: 1em;
 	box-sizing: border-box;
 }
